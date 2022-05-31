@@ -1,4 +1,5 @@
 import React from 'react'
+import { BigButton } from '../../components/BigButton'
 import { Describe } from '../../components/Describe'
 import { NavBar } from '../../components/NavBar'
 import { SimpleButton } from '../../components/SimpleButton'
@@ -15,6 +16,7 @@ export const Home = () => {
                 <SimpleButton buttonText='Login' />
                 <SimpleButton buttonText='Cadastrar' />
             </TwoButtonContainer>
+            <BigButton buttonText='Continue With Google'/>
         </Container>
     )
 }
