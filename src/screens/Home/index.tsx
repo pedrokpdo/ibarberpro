@@ -1,16 +1,15 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Describe } from '../../components/Describe'
 import { NavBar } from '../../components/NavBar'
-import { PageContent } from './styles'
+import { Container } from './styles'
+
 
 export const Home = () => {
     return (
-        <>
+        <Container>
             <NavBar />
-            <PageContent>
-                <Text>olas</Text>
-            </PageContent>
-        </>
+            <Describe title='Olá Visitante' titleText='Aqui você pode marcar um horario ou pode solicitar um corte de emergencia, voce só precisa de um cadastro.'/>
+        </Container>
     )
 }
 
